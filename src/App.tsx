@@ -27,8 +27,8 @@ function App() {
             <Route path="/" element={
               <>
                 <Hero />
-                <ImageCarousel />
                 <Testimonials />
+                <ImageCarousel />
                 <Subjects />
               </>
             } />
