@@ -68,6 +68,12 @@ const ImageCarousel = () => {
       onMouseEnter={() => setIsAutoPlaying(false)}
       onMouseLeave={() => setIsAutoPlaying(true)}
     >
+      <div>
+      <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">
+          Photos of Class        
+       </h2>
+      </div>
+      
       {/* Images */}
       <div
         className="flex transition-transform duration-500 ease-out h-full"
