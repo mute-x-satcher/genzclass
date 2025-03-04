@@ -25,7 +25,7 @@ const Subjects = () => {
     {
       title: "For 5th to 10th Standard",
       icon: <GraduationCap className="w-12 h-12 text-indigo-600" />,
-      subjects: ["Maths 1", "Maths 2", "Science 1", "Science 2", "English", "Geography", "History"]
+      subjects: ["Maths 1", "Maths 2", "Science 1", "Science 2", "Marathi", "English", "Geography", "History"]
     },
     {
       title: "For 11th and 12th Standard",
