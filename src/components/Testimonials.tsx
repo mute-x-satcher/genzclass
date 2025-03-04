@@ -17,13 +17,19 @@ const Testimonials = () => {
 
         <div ref={ref} className="flex justify-center" >
           {/* Video Testimonial */}
-          
-          <iframe width="400" height="200" 
-          src="https://www.youtube.com/embed/-a7J9cKBRKo?si=2XECtgznxDquYI1Y&amp;controls=0" 
+        
+          <iframe width="400" height="190" 
+          src="https://www.youtube.com/embed/6I8_IWELuug?si=f-bjuqRghuP2tU38"
           title="YouTube video player" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  
           ></iframe>
+      
         
+        </div>
+       <div>
+        <h2 className="text-1xl font-bold text-gray-900 text-center mb-12">
+            This is a just example video.
+          </h2>
         </div>
       </div>
     </div>
